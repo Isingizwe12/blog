@@ -1,0 +1,68 @@
+.profile{
+    width: 73.5vw;
+position: absolute;
+justify-content: center;
+align-items: center;
+/* background-image: url('../../image/keyboard2.jpg'); */
+background-color: rgb(12, 12, 12);
+background-size: cover;
+object-fit: cover;
+padding: 20px;
+left: 348px;
+top: 14.3rem;
+}
+h1{
+    text-align: center;
+    font-family: 'Varela Round',sans-serif;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+}
+.form{
+  background-color: rgb(190, 202, 218);
+  margin-top: 40px;
+  margin-left: 195px;
+  padding: 40px;
+  width: 50vw;
+  height: 320px;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  font-family: 'Varela Round',sans-serif;
+  margin-bottom: 20px;
+}
+
+.form label{
+    padding: 10px;
+    color:rgb(31, 30, 29) ;
+    font-size: 15px;
+    font-family: 'Varela Round',sans-serif;
+}
+.FormInput{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 0 4 rgba(0, 0, 0, .1);
+}
+.update{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 180px;
+    font-family: 'Varela Round',sans-serif;
+    background-color: teal;
+    color: white;
+}
+.logout{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: 'Varela Round',sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightcoral;
+    color: white;
+}
+

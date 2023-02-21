@@ -1,0 +1,28 @@
+/* .posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+
+} */
+.container-post{
+  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}   
+
+/* .post__container{
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+
+@media screen and (max-width:768px) {
+    .container-post{
+        width: 340px;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+        margin-left: 15px;
+       
+    }
+}

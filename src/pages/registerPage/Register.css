@@ -1,0 +1,63 @@
+.register{
+    height: calc(100vh-50px);
+    display: flex;
+    background-image: url('../../image/background.jpg');
+    background-size: cover;
+    padding: 7rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+.registerTitle{
+  font-size: 40px;  
+}
+.registerForm{
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 80px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm>label{
+  margin: 10px 0; 
+  font-size: 18px;
+  font-family: 'Varela Round',sans-serif;
+  text-align: center; 
+
+}
+.registerForm>input{
+ padding: 10px;  
+ background-color: rgb(230, 221, 221);
+ border: none; 
+ border-radius: 10px;
+}
+.offscreen{
+  display:none;
+}
+.registerButton{
+   margin-top: 20px;
+   cursor: pointer; 
+   background-color:teal;
+   border: none;
+   color: white;
+   border-radius: 10px;
+   padding: 10px;
+
+}
+.loginButton{
+  margin-top: 20px;
+  cursor: pointer; 
+  background-color:teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+
+ 
+}
